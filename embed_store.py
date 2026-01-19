@@ -11,7 +11,7 @@ MODEL_NAME = "all-MiniLM-L6-v2"
 
 def main():
    
-    api_key ="pcsk_6LUd8z_2GLWczaA8gLmDbBfG2SSAKxK3Hj3RfJKCwe5HMc9LVJK3EgmzMQvcqFdEeXXzC5"
+    api_key ="**"
     if not api_key:
         raise ValueError("PINECONE_API_KEY not set")
 

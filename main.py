@@ -20,7 +20,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-api_key = "pcsk_6LUd8z_2GLWczaA8gLmDbBfG2SSAKxK3Hj3RfJKCwe5HMc9LVJK3EgmzMQvcqFdEeXXzC5"
+api_key = "***"
 if not api_key:
     raise RuntimeError("PINECONE_API_KEY not set")
 
